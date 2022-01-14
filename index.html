@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>DEUM-KIT</title>
+    <script src="https://kit.fontawesome.com/aac1c03727.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <audio id="myAudio">
+        <source src="./sounds/Drumvoi2.mp3" type="audio/ogg">
+        <source src="./sounds/Drumvoi2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="yourAudio">
+        <source src="./sounds/Drumvoi3.mp3" type="audio/ogg">
+        <source src="./sounds/Drumvoi3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h1 class="hading">
+        DRUM🥁KIT
+    </h1>
+    <div class="container">
+        <button class="w drum">w</button>
+        <button class="a drum">a</button>
+        <button class="s drum">s</button>
+        <button class="d drum">d</button>
+        <button class="j drum">j</button>
+        <button class="k drum">k</button>
+        <button class="l drum">l</button>
+    </div>
+    <div class="containera">
+        <div class="pad">
+            <button onclick="playourAudio()" class="b flute"> <i class="fas fa-2x fa-play-circle"
+                    id="pause"></i></button>
+            <button onclick="pauseyourAudio()" class="b flute"> <i class="fas fa-2x fa-pause-circle"
+                    id="pause"></i></button>
+        </div>
+        <div class="pad">
+            <button onclick="playourAudio1()" class="b flute"> <i class="fas fa-2x fa-play-circle"
+                    id="pause"></i></button>
+            <button onclick="pauseyourAudio1()" class="b flute"> <i class="fas fa-2x fa-pause-circle"
+                    id="pause"></i></button>
+        </div>
+
+
+
+    </div>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
